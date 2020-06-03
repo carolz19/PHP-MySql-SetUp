@@ -22,6 +22,7 @@ if ($result->num_rows > 0) {
 				<td class='border- class'>".$row["customerzip"]."</td>
 			</tr>";
 		echo "</table>";
+	}
 		 
 } else {
 	echo "0 results"; 
